@@ -24,6 +24,6 @@ jobs:
             fix
             docs
             refactor
-          scope: |
+          scopes: |
             foo(/unstable)?
             bar(/unstable)?
