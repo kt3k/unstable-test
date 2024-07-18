@@ -24,4 +24,6 @@ jobs:
             fix
             docs
             refactor
-          headerPattern: '^([\w/]+)(?:\(([\w\$\.\-\* ]*)\))?\: (.*)$'
+          scope: |
+            foo(/unstable)?
+            bar(/unstable)?
